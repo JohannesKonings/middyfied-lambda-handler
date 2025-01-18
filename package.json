@@ -1,6 +1,6 @@
 {
 	"name": "@jaykingson/middyfied-lambda-handler",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Combining middy middlewares with own custom middlewares for an consistent lambda\nhandler handling",
 	"repository": {
 		"type": "git",
