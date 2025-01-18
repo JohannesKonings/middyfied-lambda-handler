@@ -18,12 +18,15 @@ handler handling</p>
 
 ## Usage
 
+🚧 under construction 🚧
+
 ```shell
-npm i middyfied-lambda-handler
+pnpm add @jaykingson/middyfied-lambda-handler
 ```
 
 ```ts
-import { greet } from "middyfied-lambda-handler";
+// eslint-disable-next-line n/no-missing-import
+import { greet } from "@jaykingson/middyfied-lambda-handler";
 
 greet("Hello, world! 💖");
 ```
