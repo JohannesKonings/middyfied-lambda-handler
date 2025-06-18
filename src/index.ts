@@ -1,1 +1,1 @@
-export const greet = (greeting: string) => greeting;
+export { createMiddyfiedGeneralEventHandler } from "./createMiddyfiedGeneralEventHandler.js";
