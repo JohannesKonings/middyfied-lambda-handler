@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@middy/core':
+        specifier: ^6.3.2
+        version: 6.3.2
     devDependencies:
       '@eslint-community/eslint-plugin-eslint-comments':
         specifier: 4.5.0
@@ -774,6 +778,10 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@middy/core@6.3.2':
+    resolution: {integrity: sha512-2mzUPFCIIN5CvD2NC/upFCqx9S3Y1kT+3YEIUnqgHJgrPW2Kw7Oj+HNwpFS1DRr/2Vlx6pFZfwEWDA6EJqXQ9w==}
+    engines: {node: '>=20'}
 
   '@napi-rs/wasm-runtime@0.2.11':
     resolution: {integrity: sha512-9DPkXtvHydrcOsopiYpUgPHpmj0HWZKMUnL2dZqpvC42lsratuBG06V5ipyno0fUek5VlFsNQ+AcFATSrJXgMA==}
@@ -4026,6 +4034,8 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@middy/core@6.3.2': {}
 
   '@napi-rs/wasm-runtime@0.2.11':
     dependencies:

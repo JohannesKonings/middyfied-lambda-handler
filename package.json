@@ -1,5 +1,5 @@
 {
-	"name": "middyfied-lambda-handler",
+	"name": "@jaykingson/middyfied-lambda-handler",
 	"version": "0.0.1",
 	"description": "Combining middy middlewares with own custom middlewares for an consistent lambda handler handling",
 	"repository": {
@@ -33,6 +33,9 @@
 	},
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
+	},
+	"dependencies": {
+		"@middy/core": "^6.3.2"
 	},
 	"devDependencies": {
 		"@eslint-community/eslint-plugin-eslint-comments": "4.5.0",
