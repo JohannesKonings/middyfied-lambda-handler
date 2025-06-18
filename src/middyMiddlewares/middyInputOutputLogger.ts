@@ -16,6 +16,7 @@ export const inputOutputLoggerMiddleware = (): MiddlewareObj => {
 		if (isTest) {
 			return;
 		}
+		// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 		console.info("END: processing Result", { result: request.response });
 	};
 	const inputOutputLoggerMiddlewareError = (request: Request): void => {
