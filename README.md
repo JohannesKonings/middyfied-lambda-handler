@@ -1,7 +1,6 @@
 <h1 align="center">middyfied-lambda-handler</h1>
 
-<p align="center">Combining middy middlewares with own custom middlewares for an consistent lambda
-handler handling</p>
+<p align="center">Combining middy middlewares with own custom middlewares for an consistent lambda handler handling</p>
 
 <p align="center">
 	<!-- prettier-ignore-start -->
@@ -11,8 +10,8 @@ handler handling</p>
 	<!-- prettier-ignore-end -->
 	<a href="https://github.com/JohannesKonings/middyfied-lambda-handler/blob/main/.github/CODE_OF_CONDUCT.md" target="_blank"><img alt="🤝 Code of Conduct: Kept" src="https://img.shields.io/badge/%F0%9F%A4%9D_code_of_conduct-kept-21bb42" /></a>
 	<a href="https://codecov.io/gh/JohannesKonings/middyfied-lambda-handler" target="_blank"><img alt="🧪 Coverage" src="https://img.shields.io/codecov/c/github/JohannesKonings/middyfied-lambda-handler?label=%F0%9F%A7%AA%20coverage" /></a>
-	<a href="https://github.com/JohannesKonings/middyfied-lambda-handler/blob/main/LICENSE.md" target="_blank"><img alt="📝 License: MIT" src="https://img.shields.io/badge/%F0%9F%93%9D_license-MIT-21bb42.svg"></a>
-	<a href="http://npmjs.com/package/middyfied-lambda-handler"><img alt="📦 npm version" src="https://img.shields.io/npm/v/middyfied-lambda-handler?color=21bb42&label=%F0%9F%93%A6%20npm" /></a>
+	<a href="https://github.com/JohannesKonings/middyfied-lambda-handler/blob/main/LICENSE.md" target="_blank"><img alt="📝 License: MIT" src="https://img.shields.io/badge/%F0%9F%93%9D_license-MIT-21bb42.svg" /></a>
+	<a href="http://npmjs.com/package/middyfied-lambda-handler" target="_blank"><img alt="📦 npm version" src="https://img.shields.io/npm/v/middyfied-lambda-handler?color=21bb42&label=%F0%9F%93%A6%20npm" /></a>
 	<img alt="💪 TypeScript: Strict" src="https://img.shields.io/badge/%F0%9F%92%AA_typescript-strict-21bb42.svg" />
 </p>
 
@@ -25,7 +24,6 @@ pnpm add @jaykingson/middyfied-lambda-handler
 ```
 
 ```ts
-// eslint-disable-next-line n/no-missing-import
 import { greet } from "@jaykingson/middyfied-lambda-handler";
 
 greet("Hello, world! 💖");
@@ -45,7 +43,7 @@ Thanks! 💖
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://johanneskonings.dev/"><img src="https://avatars.githubusercontent.com/u/14806640?v=4?s=100" width="100px;" alt="Johannes Konings"/><br /><sub><b>Johannes Konings</b></sub></a><br /><a href="https://github.com/JohannesKonings/middyfied-lambda-handler/commits?author=JohannesKonings" title="Code">💻</a> <a href="#content-JohannesKonings" title="Content">🖋</a> <a href="https://github.com/JohannesKonings/middyfied-lambda-handler/commits?author=JohannesKonings" title="Documentation">📖</a> <a href="#ideas-JohannesKonings" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-JohannesKonings" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-JohannesKonings" title="Maintenance">🚧</a> <a href="#projectManagement-JohannesKonings" title="Project Management">📆</a> <a href="#tool-JohannesKonings" title="Tools">🔧</a></td>
+      <td align="center"><a href="https://johanneskonings.dev/"><img src="https://avatars.githubusercontent.com/u/14806640?v=4?s=100" width="100px;" alt="Johannes Konings"/><br /><sub><b>Johannes Konings</b></sub></a><br /><a href="https://github.com/JohannesKonings/middyfied-lambda-handler/commits?author=JohannesKonings" title="Code">💻</a> <a href="#content-JohannesKonings" title="Content">🖋</a> <a href="https://github.com/JohannesKonings/middyfied-lambda-handler/commits?author=JohannesKonings" title="Documentation">📖</a> <a href="#ideas-JohannesKonings" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-JohannesKonings" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-JohannesKonings" title="Maintenance">🚧</a> <a href="#projectManagement-JohannesKonings" title="Project Management">📆</a> <a href="#tool-JohannesKonings" title="Tools">🔧</a></td>
     </tr>
   </tbody>
 </table>
@@ -58,4 +56,4 @@ Thanks! 💖
 
 <!-- You can remove this notice if you don't want it 🙂 no worries! -->
 
-> 💝 This package was templated with [`create-typescript-app`](https://github.com/JoshuaKGoldberg/create-typescript-app) using the [`create` engine](https://create.bingo).
+> 💝 This package was templated with [`create-typescript-app`](https://github.com/JoshuaKGoldberg/create-typescript-app) using the [Bingo framework](https://create.bingo).
