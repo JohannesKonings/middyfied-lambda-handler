@@ -12,11 +12,11 @@ export const inputOutputLoggerMiddleware = (): MiddlewareObj => {
 		console.trace("context", { context: request });
 	};
 
-	const inputOutputLoggerMiddlewareAfter = (): void => {
+	const inputOutputLoggerMiddlewareAfter = (request: Request): void => {
 		if (isTest) {
 			return;
 		}
-		console.info("END: processing Input");
+		console.info("END: processing Result", { result: request.response });
 	};
 	const inputOutputLoggerMiddlewareError = (request: Request): void => {
 		if (isTest) {
