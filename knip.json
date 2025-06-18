@@ -1,11 +1,6 @@
 {
 	"$schema": "https://unpkg.com/knip@5.46.0/schema.json",
-	"entry": [
-		"create.config.js",
-		"src/**/*.test.*",
-		"src/index.ts",
-		"src/index.ts!"
-	],
+	"entry": ["src/**/*.test.*", "src/index.ts"],
 	"ignoreExportsUsedInFile": { "interface": true, "type": true },
-	"project": ["create.config.js", "src/**/*.ts", "src/**/*.ts!"]
+	"project": ["src/**/*.ts"]
 }
