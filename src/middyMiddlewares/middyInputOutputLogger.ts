@@ -7,6 +7,7 @@ export const inputOutputLoggerMiddleware = (): MiddlewareObj => {
 		if (isTest) {
 			return;
 		}
+		// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 		console.info("BEGIN: processing Input", { input: request.event });
 		console.trace("context", { context: request });
 	};
@@ -22,12 +23,20 @@ export const inputOutputLoggerMiddleware = (): MiddlewareObj => {
 			return;
 		}
 		console.error("ERROR: processing Input", { cause: request.error });
-		throw request.error;
+		if (request.error instanceof Error) {
+			throw request.error;
+		} else {
+			throw new Error(
+				typeof request.error === "string"
+					? request.error
+					: JSON.stringify(request.error),
+			);
+		}
 	};
 
 	return {
-		before: inputOutputLoggerMiddlewareBefore,
 		after: inputOutputLoggerMiddlewareAfter,
+		before: inputOutputLoggerMiddlewareBefore,
 		onError: inputOutputLoggerMiddlewareError,
 	};
 };

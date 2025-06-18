@@ -26,13 +26,14 @@ pnpm add @jaykingson/middyfied-lambda-handler
 ```ts
 import { createMiddyfiedGeneralEventHandler } from "@jaykingson/middyfied-lambda-handler";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const middyHandler = async (event: any) => {
-	console.log("lambda was called...");
+	console.log("lambda was called...", event);
 	return {
-		statusCode: 200,
 		body: JSON.stringify({
 			message: "Hello from Lambda!",
 		}),
+		statusCode: 200,
 	};
 };
 
